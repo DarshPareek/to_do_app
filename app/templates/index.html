@@ -8,8 +8,25 @@
 </head>
 
 <body>
-    <h1>HELLO WORLD!!</h1>
-    <div onclick="wow()" id="WOWBOX">Darsh</div>
+    <div id="appdata"><span>TO DO APP</span></div>
+    <!-- <h1>HELLO WORLD!!</h1> -->
+    <div id="mainout">
+        <div id="outbox">
+            <div id="inbox">
+                <div id="add"><span onclick="dataClick()" id="addata">+</span></div>
+                <div id="det">
+                    <label class='names'>Task : </label><input class='namess' type="text" id='names'>
+                    <button class="namess" onclick="addtask()"> Add </button>
+                </div>
+                <div id="Tas">
+                    <ul id="tasks">
+
+                    </ul>
+                </div>
+                <div id="saves"><button class="namess" id="save" onclick="saveToDo()"> Save </button></div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

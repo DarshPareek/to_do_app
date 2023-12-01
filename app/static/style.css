@@ -1,4 +1,120 @@
-body{
-    background-color: blue;
-    color: yellowgreen;
+body {
+    background-color: #11111b;
+    margin: 7px 7px 7px 7px;
+
+}
+
+#appdata {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 7px;
+    color: #cdd6f4;
+}
+
+#add {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    background-color: #1e1e2e;
+    margin: 5px 5px 5px 5px;
+    border: 2px solid #89b4fa;
+    border-radius: 10px;
+}
+
+#det {
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    height: 50px;
+    background-color: #1e1e2e;
+    margin: 5px 5px 5px 5px;
+    border: 2px solid #89b4fa;
+    border-radius: 10px;
+    visibility: hidden;
+    -webkit-transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    -moz-transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    -o-transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: all 0.2s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+#addata {
+    color: #a6adc8;
+    position: relative;
+    display: inline-block;
+    bottom: 30%;
+    left: 11%;
+    font-size: 49px;
+    margin: 5px 5px 5px 5px;
+    text-align: center;
+    /* background-color: #1e1e2e; */
+    margin: 5px 5px 5px 5px;
+    /* border: 2px solid #89b4fa; */
+    border-radius: 10px;
+    /* rotate: 45deg; */
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.names {
+    font-size: 28px;
+    color: #a6adc8;
+    margin: 1px 7px 100px 7px;
+    /* padding: 4px 4px 7px 7px; */
+}
+
+.namess {
+    font-size: 21px;
+    background-color: #45475a;
+
+}
+
+/* #add:hover {
+    rotate: 90deg;
+} */
+/* 
+#addata:hover {
+    rotate: 45deg;
+} */
+input,
+button {
+    border: none;
+    margin: 7px 7px 7px 0px;
+    color: #a6adc8;
+    border-radius: 7px;
+    padding: 5px 5px 0px 5px;
+}
+
+button {
+    border: 3px solid #a6e3a1;
+    margin: 7px 7px 7px 0px;
+    color: #a6adc8;
+    border-radius: 7px;
+    padding: 5px 5px 0px 5px;
+}
+
+#save {
+    border: 2px solid #a6e3a1;
+    margin: 100px 10px 10px 3px;
+}
+
+#mainout {
+    border-radius: 20px;
+    background-color: #181825;
+    border-width: 3px;
+    border-color: #f38ba8;
+    height: 92vh;
+    width: 100%;
+    border-style: solid;
+}
+
+input:focus {
+    outline: none !important;
+}
+
+
+li {
+    font-size: 28px;
+    color: #b4befe;
 }

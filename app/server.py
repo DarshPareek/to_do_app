@@ -1,5 +1,5 @@
 from flask import Flask, render_template, jsonify, request
-
+from app.saveData import save
 app = Flask(__name__, template_folder='templates', static_folder='static')
 
 
@@ -10,5 +10,5 @@ def hello():
 def process(): 
     data = request.get_json()
     val = data['value']
-    val = val.upper()
-    return jsonify(result=val)  
+    save(val)
+    return jsonify(result='saved')  
